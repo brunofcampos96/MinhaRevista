@@ -4,12 +4,12 @@
     width: 100%;
     
     font-weight: 700;
-    font-family: New Century Schoolbook, sans-serif;
+    font-family: inherit;
     
 }
 optgroup{
     font-weight: 700;
-    font-family: New Century Schoolbook, sans-serif;
+    font-family: inherit;
     font-size: 34px!important;
 }
 
@@ -40,12 +40,12 @@ body{
 }
 
 .cabecalho{
-    color: #FF4040;
+    color: black;
    font-size: 25px
 }
 
 #navCabecalho{
-    background-color: #0c5628;
+    background-color: #86afd7;
 }
 .imgRevista{
     width:200px;
@@ -53,21 +53,94 @@ body{
 }
 
 .divTexto{
-    display: inline-block;
-    width:65%;
 }
 .divImagem{
-    display: inline-block;
-    width: 20%;
-    padding-top: 10px;
 }
 
 .fonteh1{
-    font-family: "Noticia Text" ;
+    font-family: inherit ;
     font-weight: 600;
+    text-align: center;
 }
 
 .fonteParagrafo{
     font-size: 1.25rem;
-    font-family: "Open Sans serif";
+    font-family: inherit;
+}
+
+.row{
+    color: black;
+}
+
+a{
+    color:black;
+    text-align: center;
+    vertical-align: center;
+}
+.block{
+    border:#549ee7;
+    border-style: solid;
+    border-width: thin;
+
+}
+
+.col-md-4.p-4.block:hover{
+    background: #138496;
+    color:white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.col-md-4.p-4.block:active{
+    transform: scale(0.98)
+}
+a:hover{
+    color: black;
+    text-decoration:none;
+}
+
+.thead{
+    background: #86afd7;
+}
+.thButton{
+    width: 250px;
+}
+.btnTh{
+    border-radius: 1px;
+    background: #86afd7;
+    border-color:#86afd7;
+    color: black;
+    width: 100%;
+}
+
+body{
+    height: 100vh;
+}
+.lastPosts{
+    height: 55vh;
+    display: block;
+    overflow-y: scroll;
+}
+.revistas{
+    margin-top: 40px;
+}
+.revistaBlock{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    background: #86afd761;
+    margin-bottom: 10px;
+}
+.revistaContent{
+    padding: 15px;
+    display: flex;
+}
+.text-primary{
+    color:black !important;
+}
+.line{
+    width: 100%;
+    background: white;
+    height: 2px;
+    display: block;
+}
+.checked {
+    color: orange;
 }

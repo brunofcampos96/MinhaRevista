@@ -13,7 +13,6 @@
   <link href="css/blog-post.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
   <script src="js/index.js"></script>
-  <link rel="icon" href="img/science.jpg"> </head>
   <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
@@ -21,41 +20,82 @@
   <!-- Navigation -->
   <nav id ="navCabecalho" class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="cabecalho" href="index2.html">Minha Revista</a>
+      <a class="cabecalho" href="index.html">Minha Revista</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="cabecalho" href="sobreNos.html">SOBRE NÓS</a>
-          </li>
-        </ul>
-      </div>
     </div>
   </nav>
   <!-- Page Content -->
-  <div class="py-5 text-center bg-light" style="width: 100%">
-    <div class="container" style="background-color: #6dd69e; border-radius: 10px;">
+  <div class="areas" style="width: 100%">
+    <h1 class="fonteh1">Áreas de Interesse</h1>
+    <div class="container" style="background-color: #86afd7; border-radius: 1px;">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="fonteh1">Áreas de Interesse</h1>
-          <p class="fonteParagrafo">CLIQUE EM UMA IMAGEM PARA ABRIR SUGESTÕES DE ARTIGOS/REVISTAS/PERIÓDICOS</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 p-4">
-          <a href="tecnologia.html"><img class="img-fluid d-block rounded-circle mx-auto" src="img/tecnologia.jpg" style="width: 400px; height: 200px"></a>
-          <p class="fonteParagrafo"><i>TECNOLOGIA</i></p>
-        </div>
-        <div class="col-md-4 p-4">
-          <a href="ciencias.html"><img class="img-fluid d-block rounded-circle mx-auto" src="img/dna.jpg" style="width: 400px; height: 200px"></a>
-          <p class="fonteParagrafo"><i>CIÊNCIAS</i></p>
-        </div>
-        <div class="col-md-4 p-4">
-          <a href="saude.html"><img class="img-fluid d-block rounded-circle mx-auto" src="img/saude.jpg" style="width: 400px; height: 200px"></a>
-          <p class="fonteParagrafo"><i>SAÚDE</i></p>
-        </div>
+        <a class="col-md-4 p-4 block" href="tecnologia.html">
+          <div class="fonteParagrafo">Tecnologia</div>
+        </a>
+        <a class="col-md-4 p-4 block" href="ciencias.html">
+          <div class="fonteParagrafo">Ciências</div>
+        </a>
+        <a class="col-md-4 p-4 block" href="saude.html">
+          <div class="fonteParagrafo">Saúde</div>
+        </a>
       </div>
     </div>
+  </div>
+
+  <h1 class="fonteh1">Últimas Postagens</h1>
+  <div class="lastPosts">
+    <table class="table">
+      <thead class="thead">
+        <tr>
+          <th scope="col">Área</th>
+          <th scope="col">Revista</th>
+          <th scope="col">Título</th>
+          <th scope="col">Data</th>
+          <th class="thButton" scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ciências</td>
+          <td>3 Biotech</td>
+          <td>Identification of Dof transcription factors in ramie (Boehmeria nivea L. Gaud) and their expression in response to different nitrogen treatments</td>
+          <td>23/11/2018</td>
+          <td> <a type="button" target="_blank" class="btn btn-info btnTh" href="https://link.springer.com/article/10.1007/s13205-018-1512-8">Acessar periódico</a></td>
+        </tr>
+        <tr>
+          <td>Ciências</td>
+          <td>IEEE Photonics Journal</td>
+          <td>A Double-Cladding Single Polarization Photonic Crystal Fiber and Its Structure Deviation Tolerance</td>
+          <td>21/11/2018</td>
+          <td> <a type="button" target="_blank" class="btn btn-info btnTh" href="https://ieeexplore.ieee.org/document/8542768">Acessar periódico</a></td>
+        </tr>
+        <tr>
+          <td>Saúde</td>
+          <td>Balkan Journal of Dental Medicine</td>
+          <td>Success of Complete Denture Treatment, Detailed Investigation of Construction Protocols, Occlusal Schemes and Evaluation Questionnaires</td>
+          <td>29/10/2018</td>
+          <td> <a type="button" target="_blank" class="btn btn-info btnTh" href="https://content.sciendo.com/view/journals/bjdm/22/3/article-p115.xml">Acessar periódico</a></td>
+        </tr>
+        <tr>
+          <td>Tecnologia</td>
+          <td>Applied Computational Intelligence and Soft Computing</td>
+          <td>Performance Assessment of Multiple Classifiers Based on Ensemble Feature Selection Scheme for Sentiment Analysis</td>
+          <td>01/10/2018</td>
+          <td> <a type="button" target="_blank" class="btn btn-info btnTh" href="https://www.hindawi.com/journals/acisc/2018/8909357/">Acessar periódico</a></td>
+        </tr>
+        <tr>
+          <td>Tecnologia</td>
+          <td>Journal of Control Science and Engineering</td>
+          <td>An Equivalent Circuit Model for Lithium Battery of Electric Vehicle considering Self-Healing Characteristic</td>
+          <td>10/06/2018</td>
+          <td> <a type="button" target="_blank" class="btn btn-info btnTh" href="https://www.hindawi.com/journals/jcse/2018/5179758/">Acessar periódico</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </body>
 

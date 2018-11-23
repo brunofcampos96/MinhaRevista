@@ -7,127 +7,164 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Minha Revista</title>
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
   <link href="css/blog-post.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-  <script src="js/index.js"></script>
   <link rel="icon" href="img/science.jpg"> </head>
   <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 <body>
-  <!-- Navigation -->
-  <nav  id ="navCabecalho" class="navbar navbar-expand-lg fixed-top">
+  <nav id ="navCabecalho" class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="cabecalho" href="index2.html">Minha Revista</a>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="cabecalho" href="sobreNos.html">SOBRE NÓS</a>
-          </li>
-        </ul>
-      </div>
+      <a class="cabecalho" href="index.html">Minha Revista</a>
+      <a class="cabecalho" href="tecnologia.html">Tecnologia</a>
+      <a class="cabecalho" href="saude.html">Saúde</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     </div>
   </nav>
-  <!-- Page Content -->
-  <div class="py-5 text-center bg-light" style="background-color: #86afd7!important;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="fonteh1">SUGESTÕES DE PERIÓDICOS - CIÊNCIAS</h1>
-          <p class="fonteParagrafo">CLIQUE EM UMA IMAGEM PARA ABRIR A PÁGINA DO PERIÓDICO</p>
-        </div>
-      </div>
-    </div>
+  <div class="py-5" style="background-color: #86afd7!important;">
+    <h1 class="fonteh1">SUGESTÕES DE PERIÓDICOS - CIÊNCIAS</h1>
   </div>
-  <div class="py-5">
+  <div>
 
-    <!--*************************************** REVISTAS-->
-    <div class="container">
-      
-      <!-- *** REVISTA 1 COM IMAGEM À ESQUERDA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">3 Biotech</h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
-          3 Biotech é publicada pela Springer unida à King Abdulaziz City of Science and Technology (KACST) da Arábia Saudita. A revista foi fundada em 2010.
-          </p>
+    <div class="revistas">
+      <div class="revistaBlock">        
+        <a target="_blank" href="https://link.springer.com/journal/13205">
+          <h2 class="text-primary">3 Biotech</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
+            3 Biotech é publicada pela Springer unida à King Abdulaziz City of Science and Technology (KACST) da Arábia Saudita. A revista foi fundada em 2010.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="https://link.springer.com/journal/13205">
+              <img class="imgRevista" src="img/ciencias/3 Biotech.jpg" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star"></span>
+              <span id="4" class="fa fa-star"></span>
+              <span id="5" class="fa fa-star"></span>
+            </div>
+          </div>
         </div>
-        <div class="divImagem">
-          <a href="https://link.springer.com/journal/13205"> <!--AQUI SE COLOCA O LINK DO ARTIGO-->
-            <img class="imgRevista" src="img/ciencias/3 Biotech.jpg" style="float: right"> 
-          </a>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="https://link.springer.com/journal/13205">Visitar site da revista</a></td>
         </div>
       </div>
-       <!-- *** -->
-      
-      <!-- *** REVISTA 2 COM IMAGEM À DIREITA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divImagem">
-          <a href="http://ojs.aas.bf.uni-lj.si/index.php/AAS/index"><!--AQUI SE COLOCA O LINK DO ARTIGO-->
-          <img class="imgRevista" src="img/ciencias/Acta agriculturae Slovenica.png"> 
-          </a>
+      <div class="revistaBlock">        
+        <a target="_blank" href="http://ojs.aas.bf.uni-lj.si/index.php/AAS/index">
+          <h2 class="text-primary">Acta agriculturae Slovenica</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->
+            Acta agriculturae Slovenica é uma revista científica publicada trimestralmente pela Agronomy, e pelo Departamento de Zootecnia da Faculdade de Biotecnologia da Universidade de Ljubljana, na Eslovênia. A Revista aceita artigos científicos originais
+                das áreas de produção vegetal e animal e é publicada em dois volumes anuais, cada um com duas edições.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="http://ojs.aas.bf.uni-lj.si/index.php/AAS/index">
+              <img class="imgRevista" src="img/ciencias/Acta agriculturae Slovenica.png" style="float: right"> 
+            </a>
+          </div>
         </div>
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">Acta agriculturae Slovenica </h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->
-          Acta agriculturae Slovenica é uma revista científica publicada trimestralmente pela Agronomy, e pelo Departamento de Zootecnia da Faculdade de Biotecnologia da Universidade de Ljubljana, na Eslovênia. A Revista aceita artigos científicos originais
-            das áreas de produção vegetal e animal e é publicada em dois volumes anuais, cada um com duas edições.
-          </p>
-        </div>
-      </div>
-      <!-- *** -->
-
-      <!-- *** REVISTA 3 COM IMAGEM À ESQUERDA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">Balkan Agricultural Engineering Review</h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
-          É publicado pela Bulgarian Agricultural Engineering Society ERA (Sociedade de Engenharia Agrícola Búlgara). É uma revista eletrônica gratuita em inglês, em uma forma similar ao CIGR Journal for Scientific Engineering Scientific Research and Development.
-          </p>
-        </div>
-        <div class="divImagem">
-          <a href="http://baer.uni-ruse.bg/"> <!--AQUI SE COLOCA O LINK DO ARTIGO-->
-            <img class="imgRevista" src="img/ciencias/BALKAN AGRICULTURAL ENGINEERING REVIEW.jpg" style="float: right">  
-          </a>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="http://ojs.aas.bf.uni-lj.si/index.php/AAS/index">Visitar site da revista</a></td>
         </div>
       </div>
-      <!-- *** -->
-
-      <!-- *** REVISTA 4 COM IMAGEM À DIREITA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divImagem">
-          <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994"><!--AQUI SE COLOCA O LINK DO ARTIGO-->
-          <img class="imgRevista" src="img/ciencias/ieee_pj.png"> 
-          </a>
+      <div class="revistaBlock">        
+        <a target="_blank" href="http://baer.uni-ruse.bg/">
+          <h2 class="text-primary">Balkan Agricultural Engineering Review</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
+            É publicado pela Bulgarian Agricultural Engineering Society ERA (Sociedade de Engenharia Agrícola Búlgara). É uma revista eletrônica gratuita em inglês, em uma forma similar ao CIGR Journal for Scientific Engineering Scientific Research and Development.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="http://baer.uni-ruse.bg/">
+              <img class="imgRevista" src="img/ciencias/BALKAN AGRICULTURAL ENGINEERING REVIEW.jpg" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star checked"></span>
+              <span id="4" class="fa fa-star checked"></span>
+              <span id="5" class="fa fa-star checked"></span>
+            </div>
+          </div>
         </div>
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">IEEE Photonics Journal</h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->O IEEE Photonics é um periódico de arquivamento de publicação rápida, apenas on-line, de pesquisa de alta qualidade na linha de frente da Photonics. A fotônica integra eletrônica quântica e óptica para acelerar o progresso na geração de novas fontes de fótons e na sua utilização em aplicações emergentes nas escalas micro e nano, desde a região do infravermelho distante / THz até a do raio-X do espectro eletromagnético.</p>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="http://baer.uni-ruse.bg/">Visitar site da revista</a></td>
         </div>
       </div>
-      <!-- *** -->      
-
-      <!-- *** REVISTA 5 COM IMAGEM À ESQUERDA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">Applied Cardiopulmonary Pathophysiology</h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
+      <div class="revistaBlock">        
+        <a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994">
+          <h2 class="text-primary">IEEE Photonics Journal</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->O IEEE Photonics é um periódico de arquivamento de publicação rápida, apenas on-line, de pesquisa de alta qualidade na linha de frente da Photonics. A fotônica integra eletrônica quântica e óptica para acelerar o progresso na geração de novas fontes de fótons e na sua utilização em aplicações emergentes nas escalas micro e nano, desde a região do infravermelho distante / THz até a do raio-X do espectro eletromagnético.</p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994">
+              <img class="imgRevista" src="img/ciencias/ieee_pj.png" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star checked"></span>
+              <span id="4" class="fa fa-star"></span>
+              <span id="5" class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994">Visitar site da revista</a></td>
+        </div>
+      </div>
+      <div class="revistaBlock">        
+        <a target="_blank" href="http://www.applied-cardiopulmonary-pathophysiology.com/home.html">
+          <h2 class="text-primary">Applied Cardiopulmonary Pathophysiology</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
             Neste trabalho, são apresentadas medidas in vivo e os resultados de uma análise in silico dos efeitos da variação da propriedade do fluido nos parâmetros da ventilação dinâmica durante a anestesia com xenônio. As medições in vivo dos parâmetros ventilatórios dinâmicos foram realizadas antes da cirurgia durante a fase de lavagem da anestesia com xenônio. O modelo in silico é baseado em uma integração de tempo quase estático de uma abordagem de perda de pressão de engenharia para simular parâmetros respiratórios dinâmicos durante a ventilação mecânica no modo de controle de volume. O modelo in silico é mostrado para se comparar bem com as medições e usado para comparar diretamente os efeitos das propriedades do fluido de três misturas gasosas nos parâmetros ventilatórios do pico menos pressão de platô e a taxa de fluxo expiratório máximo. Assim, o uso de modelos baseados na física para informar os médicos do impacto da administração de misturas gasosas parece viável.
-          </p>
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="http://www.applied-cardiopulmonary-pathophysiology.com/home.html">
+              <img class="imgRevista" src="img/ciencias/Applied Cardiopulmonary Pathophysiology.jpg" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star checked"></span>
+              <span id="4" class="fa fa-star checked"></span>
+              <span id="5" class="fa fa-star"></span>
+            </div>
+          </div>
         </div>
-        <div class="divImagem">
-          <a href="http://www.applied-cardiopulmonary-pathophysiology.com/home.html"> <!--AQUI SE COLOCA O LINK DO ARTIGO-->
-            <img class="imgRevista" src="img/ciencias/Applied Cardiopulmonary Pathophysiology.jpg" style="float: right">  
-          </a>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="http://www.applied-cardiopulmonary-pathophysiology.com/home.html">Visitar site da revista</a></td>
         </div>
       </div>
-      <!-- *** -->      
-
     </div>
   </div>
 </body>
+<script src="js/index.js"></script>
 
 </html>

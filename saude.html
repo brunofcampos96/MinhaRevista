@@ -7,123 +7,165 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Minha Revista</title>
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
   <link href="css/blog-post.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-  <script src="js/index.js"></script>
   <link rel="icon" href="img/science.jpg"> </head>
   <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 <body>
-  <!-- Navigation -->
   <nav id ="navCabecalho" class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="cabecalho" href="index2.html">Minha Revista</a>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="cabecalho" href="sobreNos.html">SOBRE NÓS</a>
-          </li>
-        </ul>
-      </div>
+      <a class="cabecalho" href="index.html">Minha Revista</a>
+      <a class="cabecalho" href="tecnologia.html">Tecnologia</a>
+      <a class="cabecalho" href="ciencias.html">Ciências</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     </div>
   </nav>
-  <!-- Page Content -->
-  <div class="py-5 text-center bg-light" style="background-color: #86afd7!important;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="fonteh1">SUGESTÕES DE PERIÓDICOS - SAÚDE</h1>
-          <p class="fonteParagrafo">CLIQUE EM UMA IMAGEM PARA ABRIR A PÁGINA DO PERIÓDICO</p>
-        </div>
-      </div>
-    </div>
+  <div class="py-5" style="background-color: #86afd7!important;">
+    <h1 class="fonteh1">SUGESTÕES DE PERIÓDICOS - SAÚDE</h1>
   </div>
-  <div class="py-5">
-    <!--*************************************** REVISTAS-->
-    <div class="container">
-      <!-- *** REVISTA 1 COM IMAGEM À ESQUERDA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">A BARRIGUDA: REVISTA CIENTÍFICA</h1>
-          <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo">
-            <!--AQUI SE COLOCA A DESCRIÇÃO-->A Barriguda é uma revista eletrônica, ISSN 2236-6695, reconhecida pela CAPES com Qualis e indexada em bases de dados, diretórios e portais de indexação abertos. Hoje ela faz parte do Centro Interdisciplinar de Pesquisa em Educação e Direito (CIPED). A ideia de criar um periódico científico nasceu da necessidade de encorajar e recuperar o ensino superior da apatia e inalterabilidade do conhecimento reproduzido afastando-o do senso comum teórico a partir de uma perspectiva interdisciplinar e inovadora para promover a solução de problemas reais na sociedade. Seu conteúdo são artigos originais, análises de decisões judiciais, resenhas críticas, artigos de revisão, notas científicas, entrevistas e informações sobre inovações na ciência. Sua frequência é quadrimestral e adota o fluxo contínuo para submissão de trabalhos científicos.</p>
-        </div>
-        <div class="divImagem">
-          <a href="http://www.abarriguda.org.br/revista/index.php/revistaabarrigudaarepb4">
-            <!--AQUI SE COLOCA O LINK DO ARTIGO-->
-            <img class="imgRevista" src="img/saude/aBarriguda.png" style="float: right"> </a>
-        </div>
-      </div>
-      <!-- *** -->
-      <!-- *** REVISTA 2 COM IMAGEM À DIREITA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divImagem">
-          <a href="http://www.aaem.pl/"><!--AQUI SE COLOCA O LINK DO ARTIGO-->
-          <img class="imgRevista" src="img/saude/aaem.png"> 
-          </a>
-        </div>
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">Annals of Agricultural and Environmental Medicine </h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->
-            Os Annals of Agricultural and Environmental Medicine (AAEM) é uma revista trimestral publicada desde 1994 pelo Institute of Rural Health de Lublin, na Polônia. Desde 2000, foi indexado e resumido na base de dados internacional Current Contents, e indexado pelo Institute for Scientific Information (ISI).
-          </p>
-        </div>
-      </div>
-      <!-- *** -->
+  <div>
 
-      <!-- *** REVISTA 3 COM IMAGEM À ESQUERDA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divTexto">
-          <h1 class="text-primary"style="font-family: Noticia Text">Ciencia y Enfermería</h1>
-          <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo">
-            <!--AQUI SE COLOCA A DESCRIÇÃO-->La Revista Ciencia y Enfermería, fundado em 1995, é publicado como o órgão oficial da Faculdade de Enfermagem da Universidad de Concepción, Chile. Sua missão fundamental é contribuir para a disseminação de conhecimentos de Enfermagem e Saúde que permitam apoiar cientificamente a práxis da disciplina nas diversas áreas de seu trabalho.</p>
+    <div class="revistas">
+      <div class="revistaBlock">        
+        <a target="_blank" href="http://www.abarriguda.org.br/revista/index.php/revistaabarrigudaarepb">
+          <h2 class="text-primary">A BARRIGUDA: REVISTA CIENTÍFICA</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo">
+                A Barriguda é uma revista eletrônica, ISSN 2236-6695, reconhecida pela CAPES com Qualis e indexada em bases de dados, diretórios e portais de indexação abertos. Hoje ela faz parte do Centro Interdisciplinar de Pesquisa em Educação e Direito (CIPED). A ideia de criar um periódico científico nasceu da necessidade de encorajar e recuperar o ensino superior da apatia e inalterabilidade do conhecimento reproduzido afastando-o do senso comum teórico a partir de uma perspectiva interdisciplinar e inovadora para promover a solução de problemas reais na sociedade. Seu conteúdo são artigos originais, análises de decisões judiciais, resenhas críticas, artigos de revisão, notas científicas, entrevistas e informações sobre inovações na ciência. Sua frequência é quadrimestral e adota o fluxo contínuo para submissão de trabalhos científicos.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="http://www.abarriguda.org.br/revista/index.php/revistaabarrigudaarepb">
+              <img class="imgRevista" src="img/saude/aBarriguda.png" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star"></span>
+              <span id="4" class="fa fa-star"></span>
+              <span id="5" class="fa fa-star"></span>
+            </div>
+          </div>
         </div>
-        <div class="divImagem">
-          <a href="https://scielo.conicyt.cl/scielo.php?script=sci_serial&pid=0717-9553&lng=es&nrm=iso">
-            <!--AQUI SE COLOCA O LINK DO ARTIGO-->
-            <img class="imgRevista" src="img/saude/cienciaEnfermaria.png" style="float: right"> </a>
-        </div>
-      </div>
-      <!-- *** -->
-      <!-- *** REVISTA 4 COM IMAGEM À DIREITA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divImagem">
-          <a href="https://content.sciendo.com/view/journals/bjdm/bjdm-overview.xml"><!--AQUI SE COLOCA O LINK DO ARTIGO-->
-          <img class="imgRevista" src="img/saude/Balkan Journal of Dental Medicine.jpg"> 
-          </a>
-        </div>
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">Balkan Journal of Dental Medicine </h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->
-          O Balkan Journal of Dental Medicine (BJDM) é a publicação oficial da Balkan Stomatological Society (BaSS). O objetivo básico do BJDM segue os objetivos primários do BaSS - aproximando especialistas de diferentes áreas da odontologia nos Bálcãs, mantendo os profissionais odontológicos balcânicos bem informados e melhorando a comunicação e o conhecimento. É publicado regularmente, três vezes por ano.
-          </p>
-        </div>
-      </div>
-      <!-- *** -->      
-
-      <!-- *** REVISTA 5 COM IMAGEM À ESQUERDA -->
-      <div class="row mb-5" style="margin-top: 100px;">
-        <div class="divTexto">
-          <h1 class="text-primary" style="font-family: Noticia Text">Arquivos Catarinenses de Medicina</h1> <!--AQUI SE COLOCA O TÍTULO-->
-          <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
-          A Arquivos Catarinenses de Medicina é um periódico científico de publicação trimestral que possui como instituição mantenedora a Associação Catarinense de Medicina - ACM. Criado em 1957, primeiramente em formato físico e a partir de 1997 em meio eletrônico, recebe e publica artigos de diferentes especialidades médicas em formatos de originais, revisões e relatos de caso com o objetivo de fomentar o desenvolvimento científico e promover o reconhecimento de pesquisadores da área.
-          </p>
-        </div>
-        <div class="divImagem">
-          <a href="http://www.acm.org.br/acm/seer/index.php/arquivos"> <!--AQUI SE COLOCA O LINK DO ARTIGO-->
-            <img class="imgRevista" src="img/saude/Arquivos Catarinenses de Medicina.jpg" style="float: right">  
-          </a>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="http://www.abarriguda.org.br/revista/index.php/revistaabarrigudaarepb">Visitar site da revista</a></td>
         </div>
       </div>
-      <!-- *** -->  
+      <div class="revistaBlock">        
+        <a target="_blank" href="http://www.aaem.pl/">
+          <h2 class="text-primary">Annals of Agricultural and Environmental Medicine</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"><!--AQUI SE COLOCA A DESCRIÇÃO-->
+                Os Annals of Agricultural and Environmental Medicine (AAEM) é uma revista trimestral publicada desde 1994 pelo Institute of Rural Health de Lublin, na Polônia. Desde 2000, foi indexado e resumido na base de dados internacional Current Contents, e indexado pelo Institute for Scientific Information (ISI).
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="http://www.aaem.pl/">
+              <img class="imgRevista" src="img/saude/aaem.png" style="float: right"> 
+            </a>
+          </div>
+        </div>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="http://www.aaem.pl/">Visitar site da revista</a></td>
+        </div>
+      </div>
+      <div class="revistaBlock">        
+        <a target="_blank" href="https://scielo.conicyt.cl/scielo.php?script=sci_serial&pid=0717-9553&lng=es&nrm=iso">
+          <h2 class="text-primary">Ciencia y Enfermería</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo">
+                La Revista Ciencia y Enfermería, fundado em 1995, é publicado como o órgão oficial da Faculdade de Enfermagem da Universidad de Concepción, Chile. Sua missão fundamental é contribuir para a disseminação de conhecimentos de Enfermagem e Saúde que permitam apoiar cientificamente a práxis da disciplina nas diversas áreas de seu trabalho.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="https://scielo.conicyt.cl/scielo.php?script=sci_serial&pid=0717-9553&lng=es&nrm=iso">
+              <img class="imgRevista" src="img/saude/cienciaEnfermaria.png" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star checked"></span>
+              <span id="4" class="fa fa-star checked"></span>
+              <span id="5" class="fa fa-star checked"></span>
+            </div>
+          </div>
+        </div>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="https://scielo.conicyt.cl/scielo.php?script=sci_serial&pid=0717-9553&lng=es&nrm=iso">Visitar site da revista</a></td>
+        </div>
+      </div>
+      <div class="revistaBlock">        
+        <a target="_blank" href="https://content.sciendo.com/view/journals/bjdm/bjdm-overview.xml">
+          <h2 class="text-primary">Balkan Journal of Dental Medicine</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo">
+                O Balkan Journal of Dental Medicine (BJDM) é a publicação oficial da Balkan Stomatological Society (BaSS). O objetivo básico do BJDM segue os objetivos primários do BaSS - aproximando especialistas de diferentes áreas da odontologia nos Bálcãs, mantendo os profissionais odontológicos balcânicos bem informados e melhorando a comunicação e o conhecimento. É publicado regularmente, três vezes por ano.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="https://content.sciendo.com/view/journals/bjdm/bjdm-overview.xml">
+              <img class="imgRevista" src="img/saude/Balkan Journal of Dental Medicine.jpg" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star checked"></span>
+              <span id="4" class="fa fa-star"></span>
+              <span id="5" class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="https://content.sciendo.com/view/journals/bjdm/bjdm-overview.xml">Visitar site da revista</a></td>
+        </div>
+      </div>
+      <div class="revistaBlock">        
+        <a target="_blank" href="http://www.acm.org.br/acm/seer/index.php/arquivos">
+          <h2 class="text-primary">Arquivos Catarinenses de Medicina</h2>
+        </a>
+        <a class="line"></a>
+        <div class="revistaContent">
+          <div class="divTexto">
+            <p class="fonteParagrafo"> <!--AQUI SE COLOCA A DESCRIÇÃO-->
+                A Arquivos Catarinenses de Medicina é um periódico científico de publicação trimestral que possui como instituição mantenedora a Associação Catarinense de Medicina - ACM. Criado em 1957, primeiramente em formato físico e a partir de 1997 em meio eletrônico, recebe e publica artigos de diferentes especialidades médicas em formatos de originais, revisões e relatos de caso com o objetivo de fomentar o desenvolvimento científico e promover o reconhecimento de pesquisadores da área.
+            </p>
+          </div>
+          <div class="divImagem">
+            <a target="_blank" href="http://www.acm.org.br/acm/seer/index.php/arquivos">
+              <img class="imgRevista" src="img/saude/Arquivos Catarinenses de Medicina.jpg" style="float: right"> 
+            </a>
+            <div id="stars1" class="stars">
+              <span id="1" class="fa fa-star checked"></span>
+              <span id="2" class="fa fa-star checked"></span>
+              <span id="3" class="fa fa-star checked"></span>
+              <span id="4" class="fa fa-star checked"></span>
+              <span id="5" class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div>
+            <a type="button" target="_blank" class="btn btn-info btnTh" href="http://www.acm.org.br/acm/seer/index.php/arquivos">Visitar site da revista</a></td>
+        </div>
+      </div>
     </div>
   </div>
 </body>
+<script src="js/index.js"></script>
 
 </html>
