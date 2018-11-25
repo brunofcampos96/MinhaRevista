@@ -15,14 +15,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 <body>
-  <nav id ="navCabecalho" class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="cabecalho" href="index.html">Minha Revista</a>
-      <a class="cabecalho" href="tecnologia.html">Tecnologia</a>
-      <a class="cabecalho" href="saude.html">Saúde</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-blue">
+    <a class="navbar-brand" href="index.html">Minha Revista</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="tecnologia.html">Tecnologia</a>
+        <a class="nav-item nav-link disabled" href="ciencias.html">Ciências</a>
+        <a class="nav-item nav-link" href="saude.html">Saúde</a>
+      </div>
     </div>
   </nav>
+  <a class="line blue"></a>
   <div class="py-5" style="background-color: #86afd7!important;">
     <h1 class="fonteh1">SUGESTÕES DE PERIÓDICOS - CIÊNCIAS</h1>
   </div>
@@ -163,7 +169,8 @@
       </div>
     </div>
   </div>
+  <script src="js/index.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
 </body>
-<script src="js/index.js"></script>
-
 </html>

@@ -144,3 +144,24 @@ body{
 .checked {
     color: orange;
 }
+body{
+    padding: 0px;
+}
+a.nav-item.nav-link{
+    text-align: left;    
+    border: #a5c4e1;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+a.nav-item.nav-link:hover{
+    background: #145b9e1f;
+}
+.navbar{
+    padding: .5rem 1rem;
+}
+.bg-blue{
+    background: #86afd7
+}
+.line.blue{
+    background: #a5c4e1;
+}
